@@ -1,0 +1,290 @@
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7d7da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    background-color: white;
+    width: 600px;
+    height: 330px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    padding: 30px;
+}
+
+/* Barra do navegador */
+.browser-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0c0c5;
+    padding: 5px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+
+.browser-bar .buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.browser-bar .btn {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #f36a6a;
+}
+
+.browser-bar .minimize {
+    background-color: #f3d26a;
+}
+
+.browser-bar .maximize {
+    background-color: #72f36a;
+}
+
+.browser-bar .url-bar {
+    flex-grow: 1;
+    text-align: left; /* Alinha o conteúdo à esquerda */
+}
+
+.browser-bar .url-bar p {
+    margin: 0;
+    color: #a77e85;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+/* Estilo dos botões de abas */
+.tab-buttons button {
+    background-color: #7c6978; /* Mudei a cor de fundo dos botões */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    color: white; /* Cor do texto */
+}
+
+/* Estilo dos botões de abas */
+.tab-buttons2 button {
+    background-color: #7c6978; /* Mudei a cor de fundo dos botões */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    color: white; /* Cor do texto */
+    margin-left: 500px; 
+}
+
+/* Estilo dos botões de abas */
+.tab-buttons3 button {
+    background-color: #7c6978; /* Mudei a cor de fundo dos botões */
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    color: white; /* Cor do texto */
+    margin-left: 250px; 
+}
+
+.tab-buttons button:hover {
+    background-color: #473c45; /* Cor de fundo ao passar o mouse */
+}
+
+/* Conteúdo */
+.content img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+/* Estilo básico para a imagem */
+.content img {
+    display: block;
+    margin: 10px auto; /* Centraliza as imagens e adiciona espaço ao redor */
+    width: 100px;
+    height: 100px;
+    transition: transform 0.3s ease; /* Transição suave para o efeito de zoom */
+}
+
+/* Efeito de zoom ao passar o mouse */
+.content img:hover {
+    transform: scale(1.1); /* Aumenta a imagem em 10% */
+}
+
+.content p {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+}
+
+.credit {
+    font-size: 12px;
+    color: #a77e85;
+}
+
+/* Rodapé */
+footer p {
+    font-size: 12px;
+    color: #a77e85;
+    margin-top: 20px;
+}
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7d7da;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Container principal */
+.container {
+    background-color: white;
+    width: 600px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.container2 {
+    background-color: white;
+    width: 600px;
+    height: 340;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Barra do navegador */
+.browser-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f0c0c5;
+    padding: 5px;
+    border-radius: 8px 8px 0 0;
+    margin-bottom: 20px;
+}
+
+.browser-bar .buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.browser-bar .btn {
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background-color: #f36a6a;
+}
+
+.browser-bar .minimize {
+    background-color: #f3d26a;
+}
+
+.browser-bar .maximize {
+    background-color: #72f36a;
+}
+
+.browser-bar .url-bar {
+    flex-grow: 1;
+    text-align: left;
+}
+
+.browser-bar .url-bar p {
+    margin: 0;
+    color: #a77e85;
+    font-weight: bold;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+/* Estilo dos botões de abas */
+.tab-buttons button {
+    background-color: #7c6978;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    cursor: pointer;
+    color: white;
+}
+
+.tab-buttons button:hover {
+    background-color: #473c45;
+}
+
+/* Formulário */
+form {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #666;
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group textarea {
+    resize: none;
+}
+
+button[type="submit"] {
+    background-color: #7c6978;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 10px;
+    transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+    background-color: #473c45;
+}
+
+/* Rodapé */
+footer p {
+    font-size: 12px;
+    color: #a77e85;
+    margin-top: 20px;
+}
